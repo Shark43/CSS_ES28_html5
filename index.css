@@ -1,0 +1,49 @@
+#wrapper{
+    /*larghezza 800px*/
+    width: 800px;
+    height: 825px;
+    margin: 15px auto;
+    background-color: #555;
+    /*Proprietà ereditate dai tag interni*/
+    font-size:16pt;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+}
+#header,#nav,#footer{
+    height: 100px;
+    margin: 15px 15px;
+    line-height: 100px;
+}
+#header{
+    background-color: #FF0;
+}
+#nav{
+    background-color: #0F0;
+}
+#footer{
+    background-color: #00F;
+}
+#section{
+    height: 440px;
+    margin: 15px 15px;
+    background-color: #F0F;
+    border: 1px solid black;
+}
+#section span{
+    display: block;
+    padding: 25px;
+}
+.article{
+    width: 550px;
+    height: 160px;
+    background-color: #0FF;
+    margin:15px;
+}
+#aside{
+    float: right;
+    background-color: #070;
+    margin: 15px;
+    height: 335px;
+    width: 180px;
+}
